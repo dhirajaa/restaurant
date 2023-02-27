@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #262626;
+}
+
+#head-rest {
+  color: #bbb;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#head-geor {
+  display: inline;
+  color: #bbb;
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-family: "Nunito";
+  font-style: normal;
+}
+
+.head-main {
+  text-align: center;
+}
+
+#welcome {
+  color: #d3ab55;
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-size: 70px;
+}
+
+#sub-wel {
+  color: #bbb;
+  font-size: 40px;
+  font-family: "Josefin Script";
+  font-style: normal;
+}
+
+header {
+  background-color: black;
+}
+
+#sub-head {
+  text-align: center;
+}
+
+button {
+  background-color: black;
+  width: 150px;
+  height: 50px;
+  border: 2px solid #d3ab55;
+  color: #d3ab55;
+  margin-bottom: 150px;
+}
+button:hover {
+  background-color: #d3ab55;
+  color: black;
+}
+
+.about {
+  font-family: "Dancing Script";
+  font-style: normal;
+  color: #d3ab55;
+  font-size: 70px;
+}
+
+.about-head {
+  color: #bbb;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+.main-section {
+  float: right;
+  width: 800px;
+  text-align: center;
+}
+
+.about-contant {
+  color: #bbb;
+  text-align: center;
+}
+
+.star {
+  color: #d3ab55;
+  letter-spacing: 4px;
+  font-size: 40px;
+}
+
+#rm {
+  background-color: #262626;
+  width: 150px;
+  height: 50px;
+  border: 2px solid #d3ab55;
+  color: #d3ab55;
+  margin-bottom: 150px;
+}
+#rm:hover {
+  background-color: #d3ab55;
+  color: black;
+}
+
+td > img {
+  width: 400px;
+  height: 250px;
+}
+
+table, tr, td {
+  border: 2px solid #bbb;
+  border-collapse: collapse;
+}
+
+table > tr > td > img:hover {
+  background-color: red;
+}
+
+.fab {
+  font-size: 50px;
+  letter-spacing: 20px;
+  color: #bbb;
+}
+.fab:hover {
+  color: #d3ab55;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer-last {
+  color: #bbb;
+  letter-spacing: 2px;
+}
+
+#foot {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}/*# sourceMappingURL=main.css.map */

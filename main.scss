@@ -1,0 +1,149 @@
+
+$text-color:#bbb;
+$pref-color:#d3ab55;
+$background-color:#262626;
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:$background-color ;
+ 
+}
+
+#head-rest{
+    color:$text-color;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+
+}
+#head-geor{
+    display: inline;
+    color:$text-color;
+    font-size: 50px;
+    letter-spacing: 2px;
+    
+    font-family: 'Nunito';
+  font-style: normal;
+}
+
+.head-main{
+    text-align: center;
+    
+   
+}
+#welcome{
+    color: $pref-color;
+    font-family:'Dancing Script';
+    font-style:normal;
+    font-size:70px;
+}
+#sub-wel{
+    color: $text-color;
+    font-size: 40px;
+    font-family:'Josefin Script';
+    font-style:normal;
+
+}
+header{
+    background-color: black;
+    
+}
+#sub-head{
+    text-align: center;
+}
+button{
+    background-color:black;
+    width: 150px;
+    height: 50px;
+    border: 2px solid $pref-color;
+    color: $pref-color;
+    margin-bottom: 150px;
+    &:hover{
+        background-color: $pref-color;
+        color:black;
+    }
+}
+//############
+
+.about{
+    font-family: 'Dancing Script';
+    font-style: normal;
+    color: $pref-color;
+    font-size: 70px;
+}
+.about-head{
+    color: $text-color;
+    font-family: 'Nunito';
+    font-style: normal;  
+    font-weight:100;
+    letter-spacing: 2px; 
+    font-size: 30px;
+    
+}
+.main-section{
+    float: right;
+    // margin-right:40px;
+    width: 800px;
+    text-align: center;
+}
+.about-contant{
+    color: $text-color;
+    text-align: center;
+}
+.star{
+    color: $pref-color;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+#rm{
+    background-color: $background-color;
+    
+    width: 150px;
+    height: 50px;
+    border: 2px solid $pref-color;
+    color: $pref-color;
+    margin-bottom: 150px;
+    &:hover{
+        background-color: $pref-color;
+        color:black;
+    }
+    
+}
+
+td>img{
+    width:400px;
+    height:250px;
+    // &:hover{
+        
+    //     background-color: aqua;
+    // }
+}
+table,tr,td{
+    border: 2px solid $text-color;
+    border-collapse: collapse;
+}
+table>tr>td>img:hover{
+    background-color: red;
+}
+.fab{
+    font-size: 50px;
+    letter-spacing:20px;
+    color: $text-color;
+    &:hover{
+        color: $pref-color;
+    }
+}
+.footer{
+    text-align: center;
+}
+.footer-last{
+    color: $text-color;
+    letter-spacing:2px;
+}
+#foot{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
